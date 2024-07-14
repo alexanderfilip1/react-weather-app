@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lilita+One&family=Playwrite+PE:wght@100..400&display=swap");
+.header {
+  background-color: #212121;
+  padding: 10px;
+  text-align: center;
+}
+
+.header__navbar--logo {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px red;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.header__navbar--logo:hover {
+  transform: scale(1.1);
+  color: #ffe066;
+}
